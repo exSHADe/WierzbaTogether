@@ -1,0 +1,33 @@
+/*      AllPages      */
+
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 1400px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1600px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .container {
+    max-width: 1600px;
+  }
+}
+
+
+
